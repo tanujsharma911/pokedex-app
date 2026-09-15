@@ -6,7 +6,7 @@
 [![NativeWind](https://img.shields.io/badge/NativeWind-5.0.0--rc.0-06B6D4?logo=tailwindcss&logoColor=white)](https://www.nativewind.dev/)
 [![PokéAPI](https://img.shields.io/badge/API-Pok%C3%A9API-EF5350)](https://pokeapi.co/)
 
-![Pokédex Screenshot](https://github.com/user-attachments/assets/2e607e7b-f9ff-4bec-9391-b8292509798b)
+![Pokédex](./assets/screen-record.gif)
 
 ## About
 
