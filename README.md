@@ -1,56 +1,70 @@
-# Welcome to your Expo app 👋
+# Pokédex
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+[![Expo](https://img.shields.io/badge/Expo-57.0.22-000020?logo=expo&logoColor=white)](https://expo.dev/)
+[![React Native](https://img.shields.io/badge/React%20Native-0.86.3-61DAFB?logo=react&logoColor=white)](https://reactnative.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-6.0.3-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![NativeWind](https://img.shields.io/badge/NativeWind-5.0.0--rc.0-06B6D4?logo=tailwindcss&logoColor=white)](https://www.nativewind.dev/)
+[![PokéAPI](https://img.shields.io/badge/API-Pok%C3%A9API-EF5350)](https://pokeapi.co/)
 
-## Get started
+![Pokédex Screenshot](https://github.com/user-attachments/assets/2e607e7b-f9ff-4bec-9391-b8292509798b)
 
-1. Install dependencies
+## About
 
-   ```bash
-   npm install
-   ```
+Pokédex is a cross-platform mobile app built with Expo and React Native. It fetches Pokémon data from [PokéAPI](https://pokeapi.co/), presents Pokémon in a two-column grid, and opens a detail sheet for each Pokémon.
 
-2. Start the app
+The app currently includes:
 
-   ```bash
-   npx expo start
-   ```
+- A Pokémon grid with official artwork and National Pokédex numbers
+- Type-based card colors
+- A detail sheet with Pokémon types, height, weight, and base experience
+- iOS, Android, and web support through Expo
+- Typed routes and React Compiler support through Expo Router
 
-In the output, you'll find options to open the app in a
+## Tech Stack
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Expo 57
+- Expo Router
+- React Native
+- TypeScript
+- NativeWind and Tailwind CSS
+- PokéAPI
+- pnpm
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Prerequisites
 
-## Get a fresh project
+- Node.js 20 or newer
+- pnpm
+- Expo Go for testing on a physical device, or an iOS/Android simulator
 
-When you're ready, run:
+## Clone and Run
 
 ```bash
-npm run reset-project
+git clone https://github.com/your-username/pokedex.git
+cd pokedex
+pnpm install
+pnpm start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+After the development server starts, use the Expo developer menu or one of the platform-specific commands below:
 
-### Other setup steps
+```bash
+pnpm ios      # Start the iOS simulator
+pnpm android  # Start the Android emulator
+pnpm web      # Start the web version
+```
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+## Development Commands
 
-## Learn more
+```bash
+pnpm start          # Start the Expo development server
+pnpm lint           # Run Expo linting
+pnpm reset-project  # Reset the starter project structure
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+## Data Source
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Pokémon data is provided by [PokéAPI](https://pokeapi.co/). An internet connection is required while the app fetches the Pokémon list and detail data.
 
-## Join the community
+## License
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project is available under the terms of the [MIT License](LICENSE).
